@@ -1,0 +1,32 @@
+
+<%-include('./partials/header.ejs')%>
+
+
+    <div class=" item-list container-fluid">
+        <h2 class="sub-title">
+            <%-categories.name%>
+        </h2>
+        <div class="row ">
+            <%categories.items.forEach((item)=>{%>
+                <div class="col-3">
+                 <a href="/show/<%-item._id%>">
+                    <div class="card card-block">
+                        <img class="card-img-top"src="<%-item.image%>" alt="">
+                        
+                            <div class="card-title">
+                                <h3 class="item-name"><%-item.name%></h3>
+                            </div>
+                        
+                       
+                    </div>
+                    </a>
+        
+                </div>
+
+            <%})%>
+        </div>
+    </div>
+
+
+
+

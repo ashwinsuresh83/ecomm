@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-image-top{
+    width:100%;
+    height: 160px;
+}
+.item-list{
+    background:rgb(245, 237, 237);    
+    padding: 10px;
+    margin-top: 10px;
+}
+.row{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.card-title{
+    height: 30px;
+}
+.card{
+    margin-bottom: 10px;
+    
+}
+img{
+    width: 100%;
+}
+.show-item{
+    padding: 5px;
+    background: rgb(206, 205, 203,.3);
+}
+.cart-image{
+    width: 50%;
+}
+.cart-table{
+    width: 50%;
+}
+.table{
+   
+    justify-self: center;
+    margin-left: 1em;
+    margin-right: auto;
+}
+thead{
+    display: block;
+}
+th, td { width:210px 
+}
+tbody{
+    display: block;
+    height: 390px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.cart-list{
+    display: flex;
+}
+.price-details{
+    flex: 1;
+    justify-content: center;
+}
+.price-details-container{
+    height: 400px;
+    padding: 30px;
+    width: 70%;
+    
+    margin: 10px;
+    
+   
+}
+.price-tag{
+    display: inline-block;
+    text-align: left;
+}
+.item-no{
+display: inline-block;
+text-align: right;
+}
+.form{
+    justify-content: center;
+    background-color: rgb(247, 243, 243,.6);
+    padding: 2em;
+    border-radius: 4px;
+  
+    
+    width: 30%;
+}
